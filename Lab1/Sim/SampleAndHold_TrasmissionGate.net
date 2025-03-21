@@ -1,0 +1,25 @@
+* C:\Users\emanu\Documents\POLITO\ANALOGICA\ANALabs\Lab1\Sim\SampleAndHold_TrasmissionGate.asc
+M N005 N003 Vtrasmission Vtrasmission CD4007_nmos
+M§P Vtrasmission N004 N005 N005 CD4007_pmos
+M§P_inv N004 N003 N002 N002 CD4007_pmos
+M_inv N004 N003 0 0 CD4007_nmos
+Vin N005 0 PULSE(0 10 0 1m 1m 0 2m)
+Vclk N003 0 PULSE(0 10 0 0 0 50u 100u)
+Vdd N002 0 10
+C1 N006 0 200p
+R1 N006 0 1Meg
+C2 N008 N007 47µ
+R2 N007 0 1.2k
+R3 N007 Vtrasmission 110k
+M1 N006 N008 0 0 CD4007_nmos
+R4 N006 N001 150k
+V1 N001 0 10
+R6 N001 N009 50k
+R7 N009 0 50k
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\emanu\AppData\Local\LTspice\lib\cmp\standard.mos
+.lib CD4007.lib
+.tran 0 8m 0 0.001
+.backanno
+.end
