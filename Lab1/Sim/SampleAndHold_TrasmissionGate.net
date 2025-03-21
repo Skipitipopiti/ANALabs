@@ -6,20 +6,33 @@ M_inv N004 N003 0 0 CD4007_nmos
 Vin N005 0 PULSE(0 10 0 1m 1m 0 2m)
 Vclk N003 0 PULSE(0 10 0 0 0 50u 100u)
 Vdd N002 0 10
-C1 N006 0 200p
+C1 N006 0 1n
 R1 N006 0 1Meg
 C2 N008 N007 47µ
 R2 N007 0 1.2k
-R3 N007 Vtrasmission 110k
+R3 N007 0 110k
 M1 N006 N008 0 0 CD4007_nmos
-R4 N006 N001 150k
+R4 N006 N001 50k
 V1 N001 0 10
 R6 N001 N009 50k
 R7 N009 0 50k
+C3 N011 Vtrasmission 47µ
+R5 N010 N011 50k
+R8 N011 0 50k
+M2 N010 N011 N012 N012 CD4007_nmos
+V2 N010 0 10
+C4 N012 0 1n
+R10 N012 0 1Meg
+I1 N012 0 10
+M3 N013 N014 N015 N015 CD4007_nmos
+I2 N015 0 1mA
+V3 N014 0 {Vgs}
+V4 N013 0 10
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\Users\emanu\AppData\Local\LTspice\lib\cmp\standard.mos
 .lib CD4007.lib
 .tran 0 8m 0 0.001
+.step param Vgs 0 10 1
 .backanno
 .end

@@ -1,15 +1,56 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\emanu\Documents\POLITO\ANALOGICA\ANALabs\Lab1\Sim\SampleAndHold_TrasmissionGate.asc
-Start Time: Fri Mar 21 12:20:24 2025
+Start Time: Fri Mar 21 12:49:00 2025
 solver = Normal
 Maximum thread count: 12
-tnom = 27
-temp = 27
-method = modified trap
+
+
+
 Limiting rise time of source vclk to 5e-06
 Limiting fall time of source vclk to 5e-06
 WARNING: Node N008 is floating.
 
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.301 seconds.
+.step vgs=0
+
+
+
+.step vgs=1
+
+
+
+.step vgs=2
+
+
+
+.step vgs=3
+
+
+
+.step vgs=4
+
+
+
+.step vgs=5
+
+
+
+.step vgs=6
+
+
+
+.step vgs=7
+
+
+
+.step vgs=8
+
+
+
+.step vgs=9
+tnom = 27
+temp = 27
+method = modified trap
+.step vgs=10
+Total elapsed time: 3.243 seconds.
 
