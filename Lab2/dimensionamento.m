@@ -21,30 +21,30 @@ Lp = 600e-9;
 Vod29 = 0.2;
 Vgs0max= Vps - Vod29-Vomax;
 Vod0 = Vgs0max -Vthn;
-WL0 = imax/(bn*Vod0^2)
+WL0 = imax/(bn*Vod0^2);
 W0 = WL0*Ln*1e6     %[um]
 
 %M1
 Vod30 = 0.2;
 Vgs1max = Vps -Vod30 - Vomax;
 Vod1 = Vgs1max -Vthp;
-WL1 = imax/(bn*Vod1^2)
+WL1 = imax/(bn*Vod1^2);
 W1 = WL1*Lp*1e6     %[um]
 
 %M2 e M3
 Ib = 5e-6;
 
-k = Ips/Ib -5;
-WL2 = WL0/k
+k = Ips/Ib -5
+WL2 = WL0/k;
 W2 = WL2*Ln*1e6     %[um]
-WL3 = WL1/k
+WL3 = WL1/k;
 W3 = WL3*Lp*1e6     %[um]
 
 %M29 e M30 
-WL29 = Ib/(bp*Vod29^2)
+WL29 = Ib/(bp*Vod29^2);
 L29 = 1e-6;
 W29 = WL29*L29*1e6   %[um]
-WL30 = Ib/(bn*Vod30^2)
+WL30 = Ib/(bn*Vod30^2);
 L30 = 2e-6;
 W30 = WL30*L30*1e6   %[um]
 
