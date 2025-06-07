@@ -1,0 +1,188 @@
+Circuit: * C:\Users\skipi\Desktop\Leo\PoliTo\Anno4\Semestre2\ANALabs\LAB3\lab3.asc
+
+r3: both pins shorted together -- ignoring.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+Gmin = 4.15716e-05
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 3.73546e-05
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+Gmin = 3.76097e-05
+vernier = 0.00130208
+Gmin = 3.75028e-05
+vernier = 0.00173611
+vernier = 0.00231481
+Gmin = 3.73282e-05
+vernier = 0.00308642
+vernier = 0.00411522
+Gmin = 3.70533e-05
+vernier = 0.00548696
+Gmin = 3.66115e-05
+vernier = 0.00731595
+vernier = 0.00975459
+Gmin = 3.58994e-05
+vernier = 0.0130061
+vernier = 0.0173415
+Gmin = 3.47998e-05
+vernier = 0.023122
+Gmin = 3.30877e-05
+vernier = 0.0308293
+vernier = 0.0411057
+Gmin = 3.04675e-05
+vernier = 0.0548076
+vernier = 0.0730768
+Gmin = 2.67418e-05
+vernier = 0.0974357
+Gmin = 2.1658e-05
+vernier = 0.129914
+vernier = 0.173219
+Gmin = 1.5369e-05
+vernier = 0.230959
+vernier = 0.307945
+Gmin = 8.97283e-06
+vernier = 0.410593
+Gmin = 3.79922e-06
+vernier = 0.547457
+vernier = 0.729942
+Gmin = 9.65201e-07
+vernier = 0.973256
+vernier = 1
+Gmin = 1.26426e-07
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+Gmin = 1.58032e-07
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 2.27273%
+Source Step = 4.16667%
+Source Step = 6.06061%
+Source Step = 7.95455%
+Source Step = 8.79498%
+Source Step = 8.91335%
+Source Step = 9.03172%
+Source Step = 9.15009%
+Source Step = 9.26847%
+vernier = 0.00585938
+Source Step = 9.39867%
+Source Step = 9.57623%
+Source Step = 9.75379%
+Source Step = 9.93134%
+Source Step = 10.1089%
+vernier = 0.00878906
+Source Step = 10.2953%
+Source Step = 10.5617%
+Source Step = 10.828%
+Source Step = 11.0943%
+Source Step = 11.3607%
+Source Step = 11.627%
+vernier = 0.0131836
+Source Step = 12.0265%
+Source Step = 12.426%
+Source Step = 12.8255%
+Source Step = 13.225%
+Source Step = 13.6245%
+vernier = 0.0197754
+Source Step = 14.2038%
+Source Step = 14.8031%
+Source Step = 15.4023%
+Source Step = 16.0016%
+Source Step = 16.6008%
+vernier = 0.0296631
+Source Step = 17.4398%
+Source Step = 18.3387%
+Source Step = 19.2375%
+Source Step = 20.1364%
+Source Step = 21.0353%
+vernier = 0.0444946
+Source Step = 22.2488%
+Source Step = 23.5971%
+Source Step = 24.9454%
+Source Step = 26.2938%
+Source Step = 27.6421%
+vernier = 0.0667419
+Source Step = 29.3949%
+Source Step = 31.4174%
+Source Step = 33.4399%
+Source Step = 35.4624%
+Source Step = 37.4848%
+vernier = 0.100113
+Source Step = 40.0129%
+Source Step = 43.0467%
+Source Step = 46.0804%
+Source Step = 49.1141%
+Source Step = 52.1478%
+vernier = 0.150169
+Source Step = 55.7883%
+Source Step = 60.3389%
+Source Step = 64.8895%
+Source Step = 69.4401%
+Source Step = 73.9907%
+vernier = 0.225254
+Source Step = 79.2238%
+Source Step = 86.0497%
+Source Step = 92.8756%
+Source Step = 94.2514%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 99.1894%
+vernier = 0.015625
+Source Step = 99.0237%
+Source Step = 99.0533%
+Source Step = 99.0829%
+Source Step = 99.1125%
+Source Step = 99.142%
+Source Step = 99.1716%
+Source Step = 99.2012%
+Source Step = 99.2308%
+Source stepping failed
+
+Pseudo Transient succeeded in finding the operating point at 10.8559 s.
+
+Date: Sat Jun  7 21:59:44 2025
+Total elapsed time: 38.670 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1015969
+traniter = 987822
+tranpoints = 226826
+accept = 170119
+rejected = 56840
+matrix size = 153
+fillins = 244
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 21.06 KB object code size  4.7/2.0/[1.1]
+Matrix Compiler2: 16.89 KB object code size  4.6/4.8/[2.0]
+
