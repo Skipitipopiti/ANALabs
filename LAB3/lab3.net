@@ -1,0 +1,29 @@
+* C:\Users\skipi\Desktop\Leo\PoliTo\Anno4\Semestre2\ANALabs\LAB3\lab3.asc
+XU1 N006 0 N003 N002 Val LTC6101
+Ro N002 Val 3m
+V1 Val 0 60
+Rs Val N003 1k
+Rx N006 0 10k
+I1 N002 N001 6
+V2 Val N001 6
+V3 Vdd 0 3.3
+XU3 N007 N008 Vdd 0 N009 OPAx391
+R2 N009 N008 20k
+R1 N008 Vdd 180k
+R0 0 N008 1.05k
+V4 Vc 0 SINE(99m 81m 45) AC 1 0
+R4 N007 Vc 15k
+C2 0 N007 100n
+R3 N004 N009 6.19k
+R5 N010 N004 9.76k
+C1 N010 0 100n
+C4 N005 N004 383n
+XU2 N010 N005 Vdd 0 N005 OPAx391
+* .op
+* .lib OPAx391.lib
+.tran 0 0.2 0
+* .ac dec 100 0.1 10000
+.lib C:\Users\skipi\Desktop\Leo\PoliTo\Anno4\Semestre2\ANALabs\LAB3\OPAx391.LIB
+.lib LTC3.lib
+.backanno
+.end
